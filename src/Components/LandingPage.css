@@ -1,0 +1,65 @@
+.LandingPage {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  height: 100vh;
+  margin: 1%;
+} 
+
+.login {
+	background-color: #8C937F;
+}
+
+.createAccount {
+	background-color: #4A4A4A;
+}
+
+.toggleBtn {
+	color: white;
+	width: 50%;
+	height: 50px;
+	font-size: 1.35rem;
+}
+
+.accountForm {
+	background-color:#FFFAF7;
+	width: 35%;
+	height: auto;
+	text-align: center;
+	margin: 10%;
+}
+
+.betweenFormAndBtns {
+	padding: 5% 2%;
+}
+
+.logo {
+  margin-left: 6%;
+  margin-top: 13%;
+  margin-right: 1%;
+  width: 35rem;
+}
+
+@media (min-width:1275px) {
+  .nav-logo {
+    display:none;
+	}
+}
+
+@media (max-width: 1275px) {
+  .LandingPage {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-logo {
+    width: 12rem;
+    margin-left: 28%;
+    margin-top: 2%;
+    align-self: flex-start;
+  }
+
+  .logo {
+    display: none;
+  }
+}

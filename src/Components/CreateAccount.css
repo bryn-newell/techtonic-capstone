@@ -1,0 +1,133 @@
+.signup-modal {
+  box-sizing: border-box;
+  width:55vw;
+  height: 75vh;
+  border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F8F8F7;
+  box-shadow: 1px 3px 4px 0 #D2D2D2;
+  text-align: center;
+  color: #363636;
+  margin-top: 5rem;
+  max-width: 600px;
+  min-width: 410px;
+  min-height: 750px;
+  margin-left: 10%;
+  max-height: 800px;
+}
+
+.signup-header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,auto);
+  height: 52px;
+  border-radius: .5rem;
+  overflow: hidden;
+  min-height:80px;
+}
+
+.signup-header > h2 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.signup-header > img {
+  grid-column-start: 2;
+  height:1rem;
+  justify-self: center;
+}
+
+.login-switch {
+  background-color: #8C937F;
+  height: 100%;
+}
+
+.create-switch {
+  background-color: #34421E;
+  height: 100%;
+}
+
+.signup-title-block > h2 {
+  margin-top:0;
+  font-size: 26px;
+}
+
+.signup-title-block > h4 {
+  font-size: 18px;
+}
+
+.signup-form-block {
+  margin-top: 1%;
+  width: 70%;
+}
+
+.signup-form-block input {
+  background-color: #FFF;
+  border-radius: .5rem;
+  color: inherit;
+  border: 1px solid #D2D2D2;
+  box-shadow: 1px 1px 5px #D2D2D2;
+}
+
+.signup-button-block {
+  width: 60%;
+}
+
+.signup-button-block > button {
+  border-radius: 5px;
+  margin-top:2%;
+  background-image: linear-gradient(-180deg, #F2E6C9 0%, #E0C999 100%);
+  font-size: 18px;
+  font-weight: bold;
+  color: inherit;
+  box-shadow: 2px 2px 5px #D2D2D2;
+  height:2.6rem;
+  width:16rem;
+  cursor: pointer;
+}
+
+.or {
+  margin-top: 2%;
+}
+
+.social-media-block {
+  width: 60%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.social-media-block > button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.social-media-block > button > img {
+  max-height:3rem;
+}
+
+/* Moves the login module center of the page */
+@media (max-width: 1275px) {
+  .signup-modal {
+    margin-top: 2%;
+    margin-left:0;
+  }
+}
+
+/* For iPhone X only */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .signup-modal {
+    margin-left:0;
+    margin-top:0;
+  }
+}

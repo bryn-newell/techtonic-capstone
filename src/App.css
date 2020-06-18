@@ -1,0 +1,24 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  }
+
+.App {
+  height: 100vh;
+}
+
+.presents-background {
+  background-image: url("./images/present-high-res.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  overflow: scroll;
+}
+
+.landing-background {
+  background-image:url("./images/landingPageBackground.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: scroll;
+}

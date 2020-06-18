@@ -1,0 +1,32 @@
+#navbar-text {
+  color: white;
+  font-size: 20px;
+  justify-content: end;
+  position: absolute;
+  right: 1%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+	background-color: #34421e;
+  padding: 10px 20px;
+}
+
+.navbar img {
+  height: 2.8rem;
+}
+
+@media (max-width:750px) {
+  #navbar-text {
+    right: 4%;
+    font-size: 18px;
+  }
+    
+  .navbar img {
+    height: 2.4rem;
+  }
+}

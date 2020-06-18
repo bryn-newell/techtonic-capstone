@@ -1,0 +1,148 @@
+#outer-most-section-home {
+  display: grid;
+  grid-template-columns: repeat(2,max-content);
+  grid-template-rows: repeat(2,max-content);
+  padding: 1%;
+  overflow-y: hidden;
+}
+
+.row-one {
+  grid-row-start:1;
+}
+
+.header-list {
+  max-width: 350px;
+}
+
+.header-list, .header-list-shared {
+  background-color: #8C937F;
+  width: 100%;
+  border-radius: .5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:2.5rem;
+}
+
+.header-list-shared {
+  grid-column-start: 3;
+}
+
+.header-list > h1, .header-list-shared > h1 {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-left: 1.8rem;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.header-list > button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.header-list > button > img {
+  height:  1.5rem;
+  margin-right: 3.5rem;
+}
+
+.line {
+  height:100%;
+  border: 2px solid gray;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  margin-top: 0;
+  margin-right: 20px;
+}
+
+.my-list {
+  grid-row-start: 2;
+  margin-right: 20px;
+}
+
+.shared-lists {
+  grid-row-start: 2;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.shared-lists > div {
+  margin-right: 1rem;
+}
+
+.shared-lists .list-container {
+  min-width: 330px;
+}
+
+.shared-lists .list-header {
+  justify-content: center;
+}
+
+.shared-lists .list-header > h1 {
+  padding-left: 1%;
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+}
+
+.shared-lists .list-header > button {
+  margin-left: auto;
+}
+
+
+@media (max-width:750px) {
+  #outer-most-section-home {
+    display:flex;
+    flex-direction: column;
+    padding-top: 3%;
+    align-items: center;
+  }
+
+  .my-list, .shared-lists, 
+  .list-container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .header-list-shared, 
+  .header-list { 
+    width: 100%;
+    height: 2.5rem;
+  }
+
+  .header-list-shared {
+    margin-top: 5%;
+    width: 350px;
+  }
+
+  .shared-lists > div {
+    margin-right: 0;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .shared-lists{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:750px) {
+  .shared-lists{
+    width: 70vw;
+    overflow-x: scroll;
+  }
+
+  .header-list-shared{
+    width: 70vw;
+  }
+}

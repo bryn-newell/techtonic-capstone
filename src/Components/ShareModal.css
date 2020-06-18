@@ -1,0 +1,43 @@
+#sharing-modal {
+  background-color: #8C937F;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+.modal-content {
+  background-color: #FFFAF7;
+  border-radius: .5rem;
+}
+
+.modal-header {
+  background-color: #d8d8d8;
+}
+
+.modal-title {
+  margin: 0 auto;
+}
+
+.modal-header .close {
+  margin-left: 0;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-body button {
+  color: white;
+  background-color: #34421e;
+  height: 2.5rem;
+  border-radius: .5rem;
+  margin: 0 5px;
+}
+
+.user-list-link {
+  border: none;
+  background-color: inherit;
+  text-decoration: underline;
+  width: 100%;
+  color: inherit;
+  cursor: pointer;
+}

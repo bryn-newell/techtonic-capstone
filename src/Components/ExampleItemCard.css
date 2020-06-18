@@ -1,0 +1,12 @@
+#example-item-card button {
+  cursor: default;
+}
+
+#example-item-card input {
+  cursor: default;
+}
+
+.fake-link {
+  margin: 0;
+  text-decoration: underline;
+}

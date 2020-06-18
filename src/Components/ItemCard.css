@@ -1,0 +1,120 @@
+.item-container{
+  background-color: #FFFAF7;
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin: 1rem 0rem;
+  border-radius: .5rem;
+  overflow: hidden; 
+  /* this overflow hidden is for the round borders */
+  box-shadow: 2px 2px 5px #D2D2D2;
+  min-height: fit-content;
+  /* flex-shrink is specifically for mozilla firefox*/
+  flex-shrink: 0;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d8d8d8;
+  padding: 0.5rem;
+  height: 45px;
+  font-size: 19px;
+}
+
+.item-header > button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.item-header > button > img {
+  width: 1.5rem;
+}
+
+.purchased-option input {
+  cursor: pointer;
+}
+
+.purchased-option label {
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.item-body {
+  padding: .5rem 1rem;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+}
+  
+.item-body > a {
+  color:inherit;
+  text-decoration: underline;
+}
+
+.length-warning {
+  text-align: center;
+}
+
+.not-a-link {
+  margin: 0;
+  text-decoration: none!important;
+}
+
+.item-body input, 
+.item-body textarea {
+  width: 162px;
+  background-color: #FFFAF7;
+  border-width: 2px;
+  border-style: inset;
+}
+
+.dots {
+  padding: 0;
+  margin: 0;
+}
+
+.see-more-text {
+  display: none;
+}
+
+.see-more-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding-left: 5px;
+  text-decoration: underline;
+}
+
+.edit-container {
+  height: 250px;
+}
+
+.title-row, .link-row, 
+.description-row {
+  font-size: 14px;
+  display: flex;   
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.item-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: .5rem;
+}
+
+.item-footer > button {
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #34421e;
+  height: 1.8rem;
+  border-radius: .5rem;
+}
+

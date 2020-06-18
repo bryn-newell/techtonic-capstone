@@ -1,0 +1,37 @@
+#example-list .list-header {
+  justify-content: start;
+  padding-left: 2rem;
+}
+
+#example-list .list-header h1 {
+  padding-left: 0;
+  margin: 0;
+}
+
+#example-list .btm-btn {
+  cursor: default;
+}
+
+#popover-contained {
+  min-width: 420px; 
+  width: 420px;
+  border: 4px solid #666e5e;
+  border-radius: .5rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.popover-header {
+  font-size: 28px;
+  background-color:#34421E;
+  border-bottom: 3px solid #666e5e;
+  color: #ffffff;
+  padding: 15px 10px;
+}
+
+.popover-body{
+  padding: 20px 10px;
+  font-size: 22px;
+  color: #4A4A4A;
+  background-color: #F7ECE3;
+}  

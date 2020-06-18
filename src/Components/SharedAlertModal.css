@@ -1,0 +1,29 @@
+#shared-alert-modal {
+  min-width: 510px;
+}
+
+#shared-alert-modal h2 {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 28px;
+}
+
+#shared-alert-modal .close {
+  margin-left: auto;
+}
+
+#shared-alert-modal p {
+  font-size: 22px;
+  margin:0;
+}
+
+#shared-alert-modal .modal-footer {
+  padding: .8rem 1rem;
+}
+
+#shared-alert-modal .modal-footer button {
+  border-radius: .5rem;
+  background-color: #8C937F;
+  color: white;
+  padding: 5px 10px
+}
