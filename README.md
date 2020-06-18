@@ -13,7 +13,16 @@ Technologies Implemented
 
 The architecture of our app utilizes React on the front-end, creating a simple and splendid user experience.  Google's and Facebook's APIs stretch the collaborative boundaries even further, and will certainly act as useful additions, should the user choose to use these features.  
 
-All registries and user authentication information will be stored on Firebase, a cloud-based technology that simplifies our architecture even further, and is perfectly reliable for deploying smaller applications such as The Gift of Giving.    
+All registries and user authentication information will be stored on Firebase, a cloud-based technology that simplifies our architecture even further, and is perfectly reliable for deploying smaller applications such as The Gift of Giving.
+
+[See the work](https://the-gift-of-giving.firebaseapp.com/)
+
+Created Jan-Mar 2019 by
+[Bryn Newell](https://www.linkedin.com/in/bryn-newell/)
+[Grace Metivier](https://www.linkedin.com/in/grace-metivier-790730150/)
+[Jinal Shah](https://www.linkedin.com/in/jinal-shah-design/)
+[Michael Dickman](https://www.linkedin.com/in/michael-dickmann-46790a135/)
+[Wally Balentine](https://www.linkedin.com/in/james-ballentine/)
 
 
 
